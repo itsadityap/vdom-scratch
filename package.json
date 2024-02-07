@@ -1,0 +1,26 @@
+{
+  "name": "hundred",
+  "version": "1.0.1",
+  "description": "💯 Toy block virtual DOM",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "browser": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidenybai/hundred.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aidenybai/hundred/issues"
+  },
+  "homepage": "https://github.com/aidenybai/hundred#readme",
+  "devDependencies": {
+    "tsup": "^5.11.13",
+    "typescript": "^4.5.5"
+  }
+}
